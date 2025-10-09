@@ -1,35 +1,25 @@
-# Gradle files
-.gradle/
-build/
+# Godot-specific
+.import/
+.export/
+.godot/
+mono/
+data_*/
+export_*/
+bin/
+.cache/
 
-# Local configuration file (sdk path, etc)
-local.properties
+# System files
+.DS_Store
+Thumbs.db
 
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
+# VSCode / Editor
+.vscode/
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.swp
 
-# Keystore files
-*.jks
-*.keystore
+# Logs and temporary files
+*.log
+*.tmp
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
-.godot/editor/filesystem*
+# Backup files
+*~
